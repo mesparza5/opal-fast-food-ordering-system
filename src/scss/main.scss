@@ -8,7 +8,52 @@ body {
   }
   .container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
+
+    .menu {
+      background-color: #fff;
+      margin: 10px;
+      .menuItem {
+        border-bottom: 1px solid #f4f4f4;
+        padding: 20px;
+        min-width: 250px;
+
+        .options {
+          .row {
+            margin: 10px 0;
+            .label {
+              margin-right: 10px;
+            }
+            .item-size {
+              text-transform: capitalize;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+    .order {
+      background-color: #fff;
+      padding:20px;
+      min-width: 300px;
+
+      .empty {
+        color: #ccc;
+      }
+
+      .orderItem {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3 {
+          margin: 0;
+          .item-size {
+            text-transform: capitalize;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
   }
 }
