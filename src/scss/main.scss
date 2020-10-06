@@ -1,0 +1,14 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.App {
+  h1 {
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
