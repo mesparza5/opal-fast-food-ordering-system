@@ -22,3 +22,10 @@ This file is the container for the following components
 - Menu.js `/src/components/Menu.js`
 - Order.js `/src/components/Order.js`
 
+Things I wanted to do with more time:
+- Adding Total Order
+- Adding Remove Items from Order
+- Combine multiple items of the same type into one, i.e: 3x Small Fries $2.99
+- Fix the issue with the CORS so I can use get the data form the API
+- Add more styling to the menu, maybe some graphics or icons. (Material UI icons or Fontawesome.)
+- Add a Place Order Button that will sent a Post request to the api with the order. 
